@@ -41,7 +41,12 @@ void cambio(const vector<int>& monedas, int N, int M) {
 }
 
 int main() {
-    vector<int> monedas = {1, 2, 5};  // Ejemplo de monedas
+    // Alternativa sin inicializadores de lista
+    vector<int> monedas; 
+    monedas.push_back(1);
+    monedas.push_back(2);
+    monedas.push_back(5);  // Ejemplo de monedas
+
     int N = monedas.size();
     int M = 11;  // Ejemplo de cantidad
 
